@@ -12,11 +12,11 @@ float rectHeight2;
 */
 
 void setup() {
-  size(700, 600);
-  rectX1 = width * 15 / 25;
-  rectY1 = height * 1/4;
-  rectWidth1 = width * 15 / 25;
-  rectHeight1 = height * 1/4;  
+  size(1000, 1000);
+  rectX1 = width * 37/50;
+  rectY1 = height * 15/200;
+  rectWidth1 = width * 10 / 50;
+  rectHeight1 = height * 30/200;  
  
 }
 
