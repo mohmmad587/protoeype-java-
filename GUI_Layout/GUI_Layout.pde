@@ -34,7 +34,7 @@ void setup() {
   rectHeight2= height * 10/200; 
   //
   rectX3= width * 0/50;
-  rectY3 = height * 100/200;
+  rectY3 = height * 100/200; 
   rectWidth3= width * 30/50;
   rectHeight3= height * 10/200; 
   //
