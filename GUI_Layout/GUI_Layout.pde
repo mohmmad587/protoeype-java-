@@ -21,6 +21,11 @@ float rectY4;
 float rectWidth4;
 float rectHeight4;
 //
+float rectX5;
+float rectY5;
+float rectWidth5;
+float rectHeight5;
+//
 void setup() {
   size(500, 800);
   rectX1 = width * 37/50;
@@ -42,12 +47,20 @@ void setup() {
   rectY4 = height * 120/200;
   rectWidth4 = width * 40 / 50;
   rectHeight4 = height * 10/200;
+  //
+  rectX5 = width * 0/50;
+  rectY5= height * 140/200;
+  rectWidth5 = width * 50/ 50;
+  rectHeight5 = height * 10/200;
 }
+
 
 void draw() {
   rect(rectX1, rectY1, rectWidth1, rectHeight1);
   rect(rectX2, rectY2, rectWidth2, rectHeight2);
   rect(rectX3, rectY3, rectWidth3, rectHeight3);
-   rect(rectX4, rectY4, rectWidth4, rectHeight4);
+  rect(rectX4, rectY4, rectWidth4, rectHeight4);
+  rect(rectX5, rectY5, rectWidth5, rectHeight5);
+  
   //rect();
 }
