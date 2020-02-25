@@ -46,6 +46,16 @@ float rectY9;
 float rectWidth9;
 float rectHeight9;
 //
+float rectX10;
+float rectY10;
+float rectWidth10;
+float rectHeight10;
+//
+float rectX11;
+float rectY11;
+float rectWidth11;
+float rectHeight11;
+//
 void setup() {
   size(500, 800);
   rectX1 = width * 37/50;
@@ -93,6 +103,16 @@ void setup() {
   rectWidth9= width * 50/ 50;
   rectHeight9 = height * 40/200;
   //
+  rectX10 = width * 37/50;
+  rectY10 = height * 15/200;
+  rectWidth10 = width * 10 / 50;
+  rectHeight10 = height * 40/200;
+  //
+  rectX11 = width * 0/50;
+  rectY11 = height * 50/200;
+  rectWidth11 = width * 50/ 50;
+  rectHeight11 = height * 150/200;
+  //
 }
 void draw() {
   rect(rectX1, rectY1, rectWidth1, rectHeight1);
@@ -104,5 +124,7 @@ void draw() {
   //rect(rectX7, rectY7, rectWidth7, rectHeight7);
   //rect(rectX8, rectY8, rectWidth8, rectHeight8);
   //rect(rectX9, rectY9, rectWidth9, rectHeight9);
+  //rect(rectX10, rectY10, rectWidth10, rectHeight10);
+  // rect(rectX11, rectY11, rectWidth11, rectHeight11);
   //rect();
 }
