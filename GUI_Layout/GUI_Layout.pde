@@ -89,17 +89,17 @@ void setup() {
   rectHeight6 = height * 30/200;
   //
   rectX7 = width * 0/50;
-  rectY7= height * 26/200;
+  rectY7= height * 50/200;
   rectWidth7= width * 50/ 50;
   rectHeight7 = height * 45/200;
   //
   rectX8 = width * 0/50;
-  rectY8= height * 75/200;
+  rectY8= height * 100/200;
   rectWidth8= width * 50/ 50;
   rectHeight8 = height * 45/200;
   //
   rectX9 = width * 0/50;
-  rectY9= height * 1/200;
+  rectY9= height * 150/200;
   rectWidth9= width * 50/ 50;
   rectHeight9 = height * 45/200;
   //
@@ -115,18 +115,18 @@ void setup() {
   //
 }
 void draw() {
- // rect(rectX1, rectY1, rectWidth1, rectHeight1);
- // rect(rectX2, rectY2, rectWidth2, rectHeight2);
+  // rect(rectX1, rectY1, rectWidth1, rectHeight1);
+  // rect(rectX2, rectY2, rectWidth2, rectHeight2);
   //rect(rectX3, rectY3, rectWidth3, rectHeight3);
   //rect(rectX4, rectY4, rectWidth4, rectHeight4);
- // rect(rectX5, rectY5, rectWidth5, rectHeight5);
+  // rect(rectX5, rectY5, rectWidth5, rectHeight5);
   //
-  rect(rectX6, rectY6, rectWidth6, rectHeight6);
-  rect(rectX7, rectY7, rectWidth7, rectHeight7);
-  rect(rectX8, rectY8, rectWidth8, rectHeight8);
-  rect(rectX9, rectY9, rectWidth9, rectHeight9);
+//  rect(rectX6, rectY6, rectWidth6, rectHeight6);
+  // rect(rectX7, rectY7, rectWidth7, rectHeight7);
+ //  rect(rectX8, rectY8, rectWidth8, rectHeight8);
+ //rect(rectX9, rectY9, rectWidth9, rectHeight9);
   //
-  //rect(rectX10, rectY10, rectWidth10, rectHeight10);
-  //rect(rectX11, rectY11, rectWidth11, rectHeight11);
+  rect(rectX10, rectY10, rectWidth10, rectHeight10);
+  rect(rectX11, rectY11, rectWidth11, rectHeight11);
   //rect();
 }
