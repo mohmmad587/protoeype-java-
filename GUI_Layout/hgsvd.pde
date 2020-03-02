@@ -117,13 +117,13 @@ void setup() {
 void draw() {
   // rect(rectX1, rectY1, rectWidth1, rectHeight1);
   color purple =  #0042CC;
-color yellow =  #0042CC;
+color yellow =  # 0042CC;
 color regularButton = purple;
 color hoverOverButton = yellow;
 String title= "Quit";
 PFont titleFont;
 
-void quitButtonSetup(){
+void quitButtonSetup() {
   titleFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
 }
 
