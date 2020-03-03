@@ -116,50 +116,15 @@ void setup() {
 }
 void draw() {
   // rect(rectX1, rectY1, rectWidth1, rectHeight1);
-  color purple =  #0042CC;
-color yellow =  #0042CC;
-color regularButton = purple;
-color hoverOverButton = yellow;
-String title= "Quit";
-PFont titleFont;
-
-void quitButtonSetup(){
-  titleFont = createFont ("Harrington", 55); //Must also Tools / Create Font / Find Font / Do Not Press "OK"
-}
-
-void quitButtonDraw() {
-  println ("Mousex:", mouseX, "\tMouseY:", mouseY);
-  if (mouseX>width*15/16 && mouseX<width && mouseY>0 && mouseY<height*1/16) { //Hover Over
-    fill(hoverOverButton);
-    rect(width*15/16, height*0/16, width*1/16, height*1/16);
-  } else {
-    fill(regularButton);
-    rect(width*15/16, height*0/16, width*1/16, height*1/16);
-  }
-
-  //Text in Quit Button
-  fill(#2C08FF); //Purple Ink, copied from Color Selector
-  textAlign (CENTER, CENTER); //Align X&Y, see Processing.org / Reference
-  //Values: LEFT | CENTER | RIGHT & TOP | CENTER | BOTTOM | BASELINE
-  textFont(titleFont, 15); //Change the number until it fits, largest font size
-  text(title, width*15/16, height*0/16, width*1/16, height*1/16);
-  fill(255); //Reset to white for rest of the program
-}
-
-void quitButtonMouseClicked() {
-  if (mouseX>width*15/16 && mouseX<width && mouseY>0 && mouseY<height*1/16) {
-    exit();
-  }
-}
   // rect(rectX2, rectY2, rectWidth2, rectHeight2);
   //rect(rectX3, rectY3, rectWidth3, rectHeight3);
   //rect(rectX4, rectY4, rectWidth4, rectHeight4);
   // rect(rectX5, rectY5, rectWidth5, rectHeight5);
   //
-//  rect(rectX6, rectY6, rectWidth6, rectHeight6);
+  //  rect(rectX6, rectY6, rectWidth6, rectHeight6);
   // rect(rectX7, rectY7, rectWidth7, rectHeight7);
- //  rect(rectX8, rectY8, rectWidth8, rectHeight8);
- //rect(rectX9, rectY9, rectWidth9, rectHeight9);
+  //  rect(rectX8, rectY8, rectWidth8, rectHeight8);
+  //rect(rectX9, rectY9, rectWidth9, rectHeight9);
   //
   //rect(rectX10, rectY10, rectWidth10, rectHeight10);
   //rect(rectX11, rectY11, rectWidth11, rectHeight11);
