@@ -1,9 +1,5 @@
 //Global Variables
 
-float rectX1;
-float rectY1;
-float rectWidth1;
-float rectHeight1;
 //
 float rectX2;
 float rectY2;
@@ -115,8 +111,11 @@ void setup() {
   //
 }
 void draw() {
-   //rect(rectX1, rectY1, rectWidth1, rectHeight1);
-   //rect(rectX2, rectY2, rectWidth2, rectHeight2);
+  rect(rectX1, rectY1, rectWidth1, rectHeight1);
+
+  profileButtonDraw();
+
+  //rect(rectX2, rectY2, rectWidth2, rectHeight2);
   //rect(rectX3, rectY3, rectWidth3, rectHeight3);
   //rect(rectX4, rectY4, rectWidth4, rectHeight4);
   // rect(rectX5, rectY5, rectWidth5, rectHeight5);
@@ -129,4 +128,8 @@ void draw() {
   //rect(rectX10, rectY10, rectWidth10, rectHeight10);
   //rect(rectX11, rectY11, rectWidth11, rectHeight11);
   //rect();
+}
+
+void MouseClick() {
+  profoleButtonMouseClick();
 }
