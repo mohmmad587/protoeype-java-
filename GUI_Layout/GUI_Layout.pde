@@ -1,12 +1,9 @@
 //Global Variables
-
-//
 float rectX2;
 float rectY2;
 float rectWidth2;
 float rectHeight2;
 //
-
 float rectX3;
 float rectY3;
 float rectWidth3;
