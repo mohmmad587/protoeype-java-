@@ -51,11 +51,9 @@ float rectHeight11;
 //
 void setup() {
   size(500, 800);
-  rectX1 = width * 37/50;
-  rectY1 = height * 15/200;
-  rectWidth1 = width * 10 / 50;
-  rectHeight1 = height * 30/200;
-  //
+  
+  profileButtonSetup();
+  
   rectX2= width * 0/50;
   rectY2 = height * 70/200;
   rectWidth2= width * 50/50;
