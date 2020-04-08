@@ -1,16 +1,4 @@
 //Global Variables
-
-float rectX1;
-float rectY1;
-float rectWidth1;
-float rectHeight1;
-//
-float rectX2;
-float rectY2;
-float rectWidth2;
-float rectHeight2;
-//
-
 float rectX3;
 float rectY3;
 float rectWidth3;
@@ -58,16 +46,8 @@ float rectHeight11;
 //
 void setup() {
   size(500, 800);
-  rectX1 = width * 37/50;
-  rectY1 = height * 15/200;
-  rectWidth1 = width * 10 / 50;
-  rectHeight1 = height * 30/200;
-  //
-  rectX2= width * 0/50;
-  rectY2 = height * 70/200;
-  rectWidth2= width * 50/50;
-  rectHeight2= height * 10/200; 
-  //
+  
+  profileButtonSetup();
   rectX3= width * 0/50;
   rectY3 = height * 100/200; 
   rectWidth3= width * 30/50;
@@ -115,8 +95,18 @@ void setup() {
   //
 }
 void draw() {
-   //rect(rectX1, rectY1, rectWidth1, rectHeight1);
+  rect(rectX1, rectY1, rectWidth1, rectHeight1);
+<<<<<<< HEAD
    //rect(rectX2, rectY2, rectWidth2, rectHeight2);
+=======
+
+  profileButtonDraw();
+
+  rect(rectX2, rectY2, rectWidth2, rectHeight2);
+    
+    profileButtonDraw();
+    
+>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
   //rect(rectX3, rectY3, rectWidth3, rectHeight3);
   //rect(rectX4, rectY4, rectWidth4, rectHeight4);
   // rect(rectX5, rectY5, rectWidth5, rectHeight5);
@@ -129,4 +119,8 @@ void draw() {
   //rect(rectX10, rectY10, rectWidth10, rectHeight10);
   //rect(rectX11, rectY11, rectWidth11, rectHeight11);
   //rect();
+}
+
+void mouseClicked() {
+  profoleButtonMouseClick();
 }
