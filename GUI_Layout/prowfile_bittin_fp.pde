@@ -1,3 +1,9 @@
+<<<<<<< HEAD
++<<<<<<< HEAD
+void prowfoliButtonSetup () 
+=======
++=======
++>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
 //variables 
 float rectX1;
 float rectY1;
@@ -32,3 +38,7 @@ void profoleButtonMouseClick() {
     exit();
   }
 }
++<<<<<<< HEAD
++>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
++=======
+>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884

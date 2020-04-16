@@ -96,6 +96,12 @@ void setup() {
 }
 void draw() {
   rect(rectX1, rectY1, rectWidth1, rectHeight1);
++<<<<<<< HEAD
+<<<<<<< HEAD
+   //rect(rectX2, rectY2, rectWidth2, rectHeight2);
+=======
++=======
++>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
 
   profileButtonDraw();
 
@@ -103,6 +109,10 @@ void draw() {
     
     profileButtonDraw();
     
++<<<<<<< HEAD
++>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
++=======
+>>>>>>> dbf9f7a473fa97e875d1da6fd3cf67272f51d884
   //rect(rectX3, rectY3, rectWidth3, rectHeight3);
   //rect(rectX4, rectY4, rectWidth4, rectHeight4);
   // rect(rectX5, rectY5, rectWidth5, rectHeight5);
