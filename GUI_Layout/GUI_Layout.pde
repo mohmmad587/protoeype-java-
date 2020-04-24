@@ -96,7 +96,7 @@ void setup() {
 }
 void draw() {
   rect(rectX1, rectY1, rectWidth1, rectHeight1);
-+<<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<< HEAD
    //rect(rectX2, rectY2, rectWidth2, rectHeight2);
 =======
